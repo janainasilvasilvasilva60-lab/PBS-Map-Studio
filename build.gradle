@@ -1,3 +1,16 @@
 plugins {
-    id 'com.android.application' version '8.7.3' apply false
+    id 'com.android.application' version '8.7.3'
+}
+
+android {
+    namespace 'com.busologo.pbsmapstudio'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.busologo.pbsmapstudio'
+        minSdk 23
+        targetSdk 35
+        versionCode 26
+        versionName '0.26.13'
+    }
 }
